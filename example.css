@@ -1,0 +1,316 @@
+.main-btn2 {
+  background: #f5efeb;
+  color: var(--button-background);
+  margin-left: 20px;  
+  font-size: 19px;
+}
+
+.main-btn2:hover {
+  border: 2px solid #f5efeb;
+  box-shadow: 4px 4px 4px 0px #f5efeb;
+}
+
+
+
+/*****************
+The below codes are for the about examples section  
+*****************/
+
+#about-example {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+
+.about-example-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 110px;
+  justify-content: center;
+  margin-top: 2%;
+  text-align: start;
+  position: relative;
+  margin-bottom: 8%;
+}
+
+.bg-circle {
+  width: 45%;
+  height: 70vh;
+  background: #f5efeb;
+  position: absolute;
+  right: -32px;
+  border-radius: 50%;
+}
+
+.bg-circle-two {
+  left:-30px;
+}
+
+.about-exapmle-card {
+  width: 52%;
+  height: 75vh;
+  /* background: #f5efeb; */
+  border-radius: 10px;
+}
+
+.about-exapmle-card a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.card-two {
+  width: 38%;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.example-quote {
+  width: 60%;
+  height: 30vh;
+  background: #fff;
+  position: absolute;
+  right: -20px;
+  bottom: -30px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 5px 8px 10px 0px lightgray;
+  z-index: 2;
+  padding: 25px;
+}
+
+.example-card-main-description {
+  font-size: 30px;
+  color: #000;
+  padding-bottom: 3%;
+}
+.example-card-description {
+  font-size: 19px;
+  opacity: .8;
+  line-height: 1.5;
+  padding-bottom: 4%;
+}
+
+/*****************
+The below codes are for the free account section  
+*****************/
+
+.free-account-container {
+  height: 28vh;
+  margin-top: 0px;
+}
+
+/*****************
+The below codes are for the More websites section  
+*****************/
+
+#more-websites {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.more-websites-main-container {
+  width: 70%;
+  height: 85vh;
+  background: #f5efeb;
+  margin: 3% auto;
+  border-radius: 10px;
+}
+
+.more-websites-title {
+  padding: 4% 0px 2% 0px;
+  font-size: 30px;
+}
+
+.more-websites-decription {
+  font-size: 19px;
+  line-height: 1.5;
+  opacity: .9;
+  padding-bottom: 8%;
+}
+
+.more-websites-sub-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.more-websites-box {
+  width: 24%;
+  height:7vh;
+  background: var(--button-background);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-content {
+  color: #fff;
+  font-size: 18px;
+}
+
+/*****************
+The below codes are for the Creators section  
+*****************/
+#creators {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.creators-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.creators-title {
+  font-size: 30px;
+  padding:0px 10% 1% 10%;
+}
+
+.creators-description {
+  font-size: 19px;
+  line-height: 1.3;
+  opacity: .9;
+  padding-bottom: 6%;
+}
+
+.creators-content {
+  width: 30%;
+  height: 110vh;
+  background: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content-head {
+  height: 40vh;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.content-body {
+  text-align: start;
+}
+
+.creator-title {
+  text-transform: uppercase;
+  padding: 3% 0px 1% 0px;
+  font-size: 16px;
+}
+
+.creator-title-decription {
+  font-size: 19px;
+  text-transform: capitalize;
+  padding-bottom: 1.5%;
+}
+
+.creator-name {
+  padding-bottom: 2%;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.creator-decription{
+  font-size: 16px;
+  opacity: .9;
+  padding-bottom: 2%;
+}
+
+.content-body a {
+  font-size: 18px;
+}
+
+
+/********************************
+ The style below is for the free Account section 
+*********************************/
+.free-account-container {
+  width: 90%;
+  height: 40vh;
+}
+.sign-up {
+  color: #fff;
+  font-size: 21px;
+}
+
+@media (max-width: 950px) {
+  .main-btn {
+    margin-bottom: 20px;
+  }
+  #header {
+    margin-bottom: 0px;
+  }
+  /* About exmaple  */
+  #about-example {
+    margin-top: 0px;
+  }
+  .about-example-container {
+    flex-direction: column;
+    margin-bottom: 30%;
+  }
+  .bg-circle {
+    display: none;
+  }
+  .about-exapmle-card {
+    width: 98%;
+    height: 54vh;
+  }
+  .card-title {
+    font-size: 17px;
+    padding-bottom: 5%;
+  }
+  .example-card-main-description {
+    font-size: 35px;
+    padding-bottom: 5%;
+  }
+  .example-card-description {
+    font-size: 20px;  
+  }
+ /* more-website section  */
+ #more-websites {
+  width: 100%;
+ }
+ .more-websites-main-container {
+      width: 98%;
+      height: 95vh;
+      margin: 18% 0px;
+ }
+ .more-websites-decription {
+  font-size: 19px;
+ }
+ .more-websites-box {
+  padding: 4px 80px;
+ }
+ .box-content {
+  font-size: 19px;
+ }
+ /* Creators section  */
+ .creators-title {
+  font-size: 30px;
+  padding: 0px 0px 1% 0px;
+  font-size: 25px;
+  padding-bottom: 5%;
+ }
+ .creators-description {
+  font-size: 20px;
+  padding-bottom: 5%;
+ }
+.creators-container {
+  flex-direction: column;
+}
+.creators-content {
+  width: 98%;
+}
+}

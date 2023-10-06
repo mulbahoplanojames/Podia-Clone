@@ -1,0 +1,25 @@
+#header {
+  height: 80vh;
+  position: relative;
+}
+
+.about-card {
+  margin: 0px 0px 10% 0px;
+  height: 70vh;
+}
+
+.card-content-box {
+  background: transparent;
+}
+
+.content-box-description {
+  font-size: 20px;
+}
+
+.about-btn {
+  background: var(--button-background);
+  color: #fff;
+}
+.about-btn:hover {
+  opacity: .7;
+}

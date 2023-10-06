@@ -1,0 +1,121 @@
+*, 
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI';
+  font-weight: 500;
+  color: #001;
+  line-height: 1.3;
+}
+
+:root {
+  --primary-color: #000;
+  --button-background:#4b2aad;
+  --phone: 950px;
+}
+
+#header {
+  height: 100vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 6%;
+  border-bottom: 2px solid lightgray;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo h1 {
+  font-size: 30px;
+  color: var(--button-background);
+}
+
+.nav-link ul li {
+  display: inline-block;
+  padding: 1px 15px;
+}
+
+.nav-link ul li  a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.login-container {
+  width: 98%;
+  height: 80vh;
+  border: 2px solid lightgray;
+  margin: 20px;
+  border-radius: 5px;
+
+}
+
+.title {
+  text-align: center;
+  padding: 3% 0px 3% 0px;
+}
+
+.conteiner-box {
+  width: 35%;
+  height: 45vh;
+  background: transparent;
+  margin: auto;
+}
+
+form {
+  margin-left: 3%;
+}
+
+.label {
+  font-size: 25px;
+}
+
+.input {
+  width: 95%;
+  height: 6vh;
+  border-radius: 10px;
+  outline: 2px solid transparent;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: 5%;
+}
+
+#submit {
+  width: 95%;
+  height: 6vh;
+  border-radius: 10px;
+  background: var(--button-background);
+  color: #fff;
+  font-size: 19px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .5s ease-in;
+  margin-bottom: 2%;
+}
+
+#submit:hover {
+ opacity: .9;
+}
+
+.forget {
+  text-align: center;
+  font-size: 21px;
+}
+
+
+@media screen and (max-width: 950px){
+  .conteiner-box {
+    width: 90%;
+  }
+}

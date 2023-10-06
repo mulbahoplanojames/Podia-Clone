@@ -1,0 +1,18 @@
+#header {
+  height: 80vh;
+  position: relative;
+}
+
+.plan-content-two {
+  width: 36%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.plan-decription{
+  font-size: 28px;
+  opacity: .6;
+  /* padding-bottom: 3%; */
+}

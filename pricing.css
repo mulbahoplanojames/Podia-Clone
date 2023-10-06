@@ -1,0 +1,384 @@
+body {
+  position: relative;
+}
+
+.payment-btns {
+  width: 27%;
+  height: 8vh;
+  background: #f5efeb;
+  margin: 1px auto;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.payment-btn {
+  padding: 10px 20px;
+  background: transparent;
+  font-size: 15px;
+  border-radius: 50px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.payment-btn:hover {
+  background: #fff;
+}
+
+.payment-btn a {
+  color: #000;
+  text-decoration: none;
+  /* display: inline-block; */
+}
+
+.payment-btn-two {
+  margin-left: 8px;
+  background: #fff;
+  box-shadow: 5px 5px 5px 0px #808080;
+}
+
+.payment-btn-two:hover {
+  background: transparent;
+}
+
+
+/* 
+********************************
+ The style below is for the Pricing option section 
+********************************* */
+#pricing-option {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 8%;
+  text-align: center;
+}
+
+.pricing-option-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.option-content {
+  width: 30%;
+  height: 100vh;
+  background: #f5efeb;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  text-align: start;
+  position: relative;
+}
+
+.hr {
+  width: 100%;
+  height:4px;
+  margin-top: 2%;
+  background: #000;
+  border-radius: 50px;
+}
+
+.hr-2 {
+  background: blue;
+}
+
+.hr-3 {
+  background: var(--button-background);
+}
+
+
+.content-head {
+  margin: 4% 0px;
+}
+
+.head-title {
+  font-size: 22px;
+  padding-bottom: 1%;
+}
+
+.head-title-two {
+  color: blue;
+}
+
+.head-title-three {
+  color: var(--button-background);
+}
+
+.head-price {
+  font-size: 19px;
+}
+
+.cancel {
+  text-decoration: line-through;
+  opacity: .5;
+}
+.content-body {
+  margin: 5% 0px 3% 0px;
+}
+
+.content-body .options {
+  font-size: 16px;
+  padding: 2%;
+}
+
+.not-included {
+  opacity: .1;
+}
+
+.option-btn {
+  width: 100%;
+  height: 6vh;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  color: #fff;
+  margin: 4% 0px 3% 0px;
+  background: #524e4e;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-2 {
+  background: blue;
+}
+
+.btn-3 {
+  background: var(--button-background);
+}
+
+.pricing-content-decription {
+  padding-top: 3%;
+  font-size: 20px;
+  opacity: .6;
+}
+
+.pricing-content-decription a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.content-decription-btn {
+  margin-top: 4%;
+  padding: 12px 30px;
+  background: #f5efeb;
+  border: 3px solid transparent;
+  border-radius: 50px;
+  font-size: 19px;
+}
+
+.best-deal {
+  width: 50px;
+  height: 50px;
+  background: var(--button-background);
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  right: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-deal-col {
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+/* 
+********************************
+ The style below is for the Pricing option section 
+********************************* */
+
+#email-marketing {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+.email-marketing-container {
+  width: 100%;
+  height: 60vh;
+  background: #f5efeb;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.marketing-content {
+  width: 58%;
+  height: 55vh;
+  background: transparent; 
+  padding: 30px;
+  border-right: 1px solid lightgray;
+}
+
+.contentMain {
+  font-size: 17px;
+  text-transform: uppercase;
+  opacity: .6;
+  padding-bottom: 1.5%;
+}
+
+.content-mainTitle {
+  font-size: 28px;
+  padding-bottom: 1.5%;
+}
+
+.contentDecription {
+  font-size: 18px;
+  opacity: .6;
+}
+
+.content-option-content {
+  margin-top: 3%;
+}
+
+.contentOption {
+  font-size: 17px;
+  padding-bottom: 2%;
+  opacity: .6;
+}
+
+.marketing-content-two {
+  width: 36%;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.content-two-title {
+  font-size: 20px;
+  padding-bottom: 3%;
+}
+
+#input {
+  width: 95%;
+  height: 7vh;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+  padding-left: 15px;
+  margin-bottom: 5%;
+}
+
+::placeholder {
+  font-size: 18px;
+}
+
+.content-two-decription {
+  font-size: 18px;
+  opacity: .6;
+  padding-bottom: 6%;
+}
+
+.free {
+  opacity: .6;
+  font-size: 25px;
+}
+
+/* 
+********************************
+ The style below is for the Pricing option section 
+********************************* */
+#plans {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+.plans-container {
+  /* width: 90%; */
+  height: 70vh;
+  background: #f5efeb;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.plan-content {
+  width: 58%;
+  height: 60vh;
+  background: transparent;
+  border-radius: 10px;
+   overflow: hidden;
+}
+
+.plan-content-two {
+  width: 36%;
+  padding: 20px;
+}
+
+.plan-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  opacity: .6;
+  padding-bottom: 2%;
+}
+
+.plan-title-description {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 5%;
+}
+
+.plan-decription{
+  font-size: 20px;
+  opacity: .6;
+  padding-bottom: 5%;
+}
+
+.bi-check-circle-fill {
+  font-size: 20px;
+  padding-right: 1.5%;
+}
+
+@media(max-width:950px) {
+  .payment-btns {
+    width: 85%;
+    height: 8vh;
+    margin-top: 8%;
+  }
+  #pricing-option {
+    width: 100%;
+  }
+  .pricing-option-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .option-content {
+    width: 90%;
+    height: 90vh;
+  }
+  /* Email marketing  */
+  .email-marketing-container {
+    flex-direction: column;
+    height: 120vh;
+  }
+  .marketing-content {
+    width: 100%;
+  }
+  /* Plans section  */
+  .plans-container {
+    flex-direction: column;
+    height: 110vh;
+  }
+  .plan-content {
+    width: 100%;
+    height: 40vh;
+  }
+  .plan-content-two {
+    height: 55vh;
+  }
+}

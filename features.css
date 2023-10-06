@@ -1,0 +1,110 @@
+.main-subtitle {
+  padding-top: 2%;
+}
+
+.main-btn  {
+  padding: 10px 20px;
+  font-size: 19px;
+}
+
+.plan-decription {
+  font-size: 17px;
+}
+
+.plan-title-description {
+  font-size: 35px;
+}
+
+.about {
+  margin-top: 10%;
+}
+
+.about-card {
+  height: 75vh;
+}
+
+.about-main-heading {
+  font-size: 40px;
+  padding: 0px 15%;
+}
+
+.about-sub-heading {
+  font-size: 19px;
+  padding: 2% 6%;
+}
+
+.card-main-description {
+  font-size: 32px;
+  padding-bottom: 3%;
+}
+
+.card-description {
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+/************************** the web builder setion 
+**************************/
+.web-builder-description {
+  font-size: 20px;
+}
+
+
+@media (max-width: 950px) {
+  .text-content {
+    margin-top: 30%;
+  }
+  .main-title {
+    font-size: 33px;
+  }
+  .main-btn {
+    font-size: 18px;
+  }
+  #about {
+    margin: 13% 0px 13% 0px;
+    width: 98%;
+  }
+  .about-main-heading {
+    font-size: 30px;
+  }
+  .about-sub-heading {
+    font-size: 18px;
+  }
+  .about-container {
+    flex-direction: column;
+   
+  }
+  .about-card {
+    height: 65vh;
+    width: 98%;
+  }
+  .card-main-description {
+    font-size: 28px;
+    padding: 4% 0px 3% 0px;
+  }
+  .card-description {
+    font-size: 18px;
+  }
+  #web-builder {
+    width: 98%;
+  }
+  .web-builder-container {
+    height: 140vh;
+    width: 98%;
+  }
+  .web-content-two {
+    height: 70vh;
+  }
+  .web-title {
+    font-size: 16px;
+  }
+  .web-main-title {
+    font-size: 35px;
+  }
+  .web-builder-description {
+    font-size: 22px;
+  }
+  .main-btn {
+    margin: 5% 0px 5% 0px;
+  }
+}
